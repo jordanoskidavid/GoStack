@@ -1,6 +1,3 @@
-from pathlib import Path
-
-readme_content = """
 # GoStock – Inventory Management System
 
 **GoStock** is a web application designed for efficient inventory management, built for companies that want to easily track their stock, orders, and users. The backend is developed with **GoLang**, and the frontend is built using **React.js** with **Tailwind CSS**. Data is stored and managed using **MySQL**, and the system supports multiple user roles and automated report generation.
@@ -72,17 +69,3 @@ readme_content = """
 - **Version Control:** Git + GitHub
 - **Deployment:** Docker
 - **Caching:** Redis
-
----
-
-Feel free to clone this repository and contribute to the project.  
-Let’s build an efficient and modern inventory system together! 🚀
-"""
-
-# Define file path
-readme_path = Path("/mnt/data/README.md")
-
-# Write content to file
-readme_path.write_text(readme_content.strip())
-
-readme_path
